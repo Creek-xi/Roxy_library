@@ -1,0 +1,71 @@
+/* color palette from <https://github.com/vuejs/theme> */
+/* https://material-foundation.github.io/material-theme-builder/ */
+:root {
+  --main-1000: #002A36;
+  --main-900: #003A51;
+  --main-800: #004F69;
+  --main-700: #00637F;
+  --main-600: #1B7796;
+  --main-500: #2C86A8;
+  --main-400: #4e99b9;
+  --main-300: #6AADCB;
+  --main-200: #8CC6E1;
+  --main-100: #ABE0F7;
+  --main-50: #CDF5FF;
+  --main-25: #E6FAFF;
+  --main-10: #F5FDFF;
+  --main-5: #FAFCFD;
+
+  --gray-10000: #000000;
+  --gray-2000: #0C1214;
+  --gray-1000: #171C1F;
+  --gray-900: #212729;
+  --gray-800: #42484A;
+  --gray-700: #616161;
+  --gray-600: #8C9193;
+  --gray-500: #A7ACAD;
+  --gray-400: #C4C7C8;
+  --gray-300: #DFE3E4;
+  --gray-200: #EFF1F2;
+  --gray-100: #F8FAFB;
+  --gray-50: #FBFDFE;
+  --gray-10: #FDFEFF;
+  --gray-0: #FFFFFF;
+
+  --main-color: #1c6586;
+  --main-color-dark: #004d5c;
+  --main-light-1: #0076AB;
+  --main-light-2: #DAEAED;
+  --main-light-3: #EDF0F1;
+  --main-light-4: #F2F5F5;
+  --main-light-5: #F7FAFB;
+  --main-light-6: #FAFDFD;
+  --secondry-color: #4e616d;
+  --error-color: #ba1a1a;
+
+  --bg-sider: var(--main-5);
+  --color-text: var(--c-black);
+
+  --min-width: 400px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  display: flow-root;
+  min-height: 100vh;
+  color: var(--gray-900);
+  line-height: 1.6;
+  font-family: 'Roboto', 'Noto Sans SC', 'HarmonyOS Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
